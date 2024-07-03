@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--nombre e icono de la pestaña-->
+    <link rel="icon" href="./imagen/iconoo.jpg" type="image/jpg" />
+    <title>FUSHION-JOVEN</title>
+    <!--nombre e icono de la pestaña-->
+   
+</head>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body fixed-top">
+        <div class="container-fluid">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#inicio"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#catalogo">Catalogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html" target="_blank"
+                  >Contacto</a
+                >
+                <li class="nav-item">
+                  <a class="nav-link" href="formulario.html"
+                  >escribenos</at target="_blank"
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                  </li>
+
+              
+              
+            </ul>
+            <ul class="navbar-nav">
+            
+<li class="nav-item">
+                <a class="nav-link" href="login.html">Ingresar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        id="intro-example"
+        class="p-6 text-center bg-image"
+        style="background-image: url(./imagen/portada.jpg); height: 400px"
+      >
+        <div class="mask" id="inicio">
+          /*quite el style="background-color: rgba(0, 0, 0, 0.7);*/
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3" style="color: black">FUSHION-JOVEN</h1>
+              <h5 class="mb-4" style="color: black">GENERACION TECH</h5>
+              <a
+                data-mdb-ripple-init
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://www.youtube.com/results?search_query=TENDECIAS+2024"
+                role="button"
+                rel="nofollow"
+                target="_blank"
+                style="color: black"
+                >TENDENCIAS 2024</a
+              >
+              <a
+                data-mdb-ripple-init
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                role="button"
+                style="color: black"
+                >DESCUENTO ONLINE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--galeria-->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        style="margin-bottom: 50px"
+        data-mdb-ride="carousel"
+        data-mdb-carousel-init
+      >
+        <div class="carousel-inner" id="galeria">
+          <div class="carousel-item active" data-mdb-interval="10000">
+            <img
+              src="./imagen/galeria1.jpg"
+              class="d-block w-100"
+              alt="Wild Landscape"
+            />
+          </div>
+          <div class="carousel-item" data-mdb-interval="2000">
+            <img
+              src="./imagen/galeri5a.jpg"
+              class="d-block w-100"
+              alt="Camera"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imagen/galeria2.jpg"
+              class="d-block w-100"
+              alt="Exotic Fruits"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-mdb-target="#carouselExampleInterval"
+          type="button"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-mdb-target="#carouselExampleInterval"
+          type="button"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--galeria-->
+
+      <!--catalogo-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" id="catalogo">
+          <div class="card h-100">
+            <img src="./imagen/base.jpg" class="card-img-top" alt="Skyscrapers"
+            "/>
+            <div class="card-body">
+              <h5 class="card-title">Base Mate</h5>
+              <p class="card-text">
+                Está base contiene elementos naturales que haran que tu piel
+                tenga una obsorcion plena de la mas alta calidad, esta libre de
+                productos quimicos abrasivos que pueden irritar tu piel.
+              </p>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./imagen/ojos.jpg"
+              class="card-img-top"
+              alt="Los Angeles Skyscrapers"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kit de Maquillaje</h5>
+              <p class="card-text">
+                Tenemos todo lo que necesitas en este bello kit, todos nuestros
+                productos tienen estractos naturales, permitiendo una larga
+                duración, un efecto de luminosidad y duración en tu piel.
+              </p>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./imagen/boca.jpg"
+              class="card-img-top"
+              alt="Palm Springs Road"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brillos y Labiales</h5>
+              <p class="card-text">
+                Tenemos varios tipos de labiales que humectan tus labios, en
+                barra y liquidos de larga duración, ya que contiene una formula
+                natural que permite lucir siempre unos labios relucientes,
+                humectantes y llenos de color.
+              </p>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <!--catalogo-->
+
+      <!--nosotros-->
+      <div id="nosotros" class="container text-center">
+        <div class="row">
+          <div class="col" id="card1" style="width: 18rem">
+            <img
+              src="./imagen/leidy1.jpg"
+              style="border-radius: 50%; height: 400px"
+              class="card-img-top"
+              alt="leidy"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Leidy</h5>
+              <p class="card-text">
+                Es la persona encargada de darle glamour y resaltación a
+                nuestros productos y de inspeccionar que nuestros clientes esten
+                satisfechos.Cabe resaltar que somos un equipo que siempre esta
+                trabajando, para brindarte lo mejor.¡Este es solo el
+                comienzo!.Trabajamos en nuevos lanzamientos.
+              </p>
+            </div>
+          </div>
+          <div class="col" id="card2" style="width: 18rem">
+            <img
+              src="./imagen/milton.jpg"
+              style="border-radius: 50%; height: 400px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Milton</h5>
+              <p class="card-text">
+                Es la persona encargada de obtener los mejores productos y de
+                validar la calidad de los mismos y que sean excelentes.
+                Resaltamos que somos un equipo de trabajo que se reunió para
+                brindar lo mejor a nuestros clientes, llevamos en el mercado
+                hace 5 años y nuestra visión es seguir creciendo para mejorar.
+              </p>
+            </div>
+          </div>
+          <div class="col" id="card3" style="width: 18rem">
+            <img
+              src="./imagen/ines2.jpg"
+              style="border-radius: 50%; height: 400px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ines</h5>
+              <p class="card-text">
+                Es la persona que administra y garantiza que todo sea de acorde
+                a lo brindado.Ama el maquillaje y es apasionada por la
+                moda.Resaltamos que como equipo de trabajo amamos lo que hacemos
+                y siempre los escucharemos para seguir mejorando y brindarles
+                siempre lo mejor .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--nosotros-->
+    </main>
+    <footer class="footer">
+      <!-- Section: Social media -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Fushion tech
+              </h6>
+              <p>
+                Fushion tech te ofrece la mejor tecnologia para el cuidado y
+                embellecimeito de tu piel, aserorarmos tu loook,tu estilo,
+                peronalizamos tu imagen a lavarguardia de la geranecion TECH te
+                invitamos a ser parte de este cambio por un futuro lleno de
+                exitos.
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Productos</h6>
+              <p><a href="#!" class="text-reset">Cuidado de la Piel</a></p>
+              <p><a href="#!" class="text-reset">Desmaquillantes</a></p>
+              <p>
+                <a href="#!" class="text-reset">Labiales en barra y liquidos</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Pestañinas</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">links Interesantes</h6>
+              <p>
+                <a href="#!" class="text-reset">Fijación de Precios</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Promociones</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ordenes</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ayuda</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+              <p><i class="fas fa-home me-3"></i> Bogotá,C.C Centro mayor</p>
+              <p><i class="fas fa-envelope me-3"></i>Fushiontech@gmail.com</p>
+              <p><i class="fas fa-phone me-3"></i> +57 3214568977</p>
+              <p><i class="fas fa-print me-3"></i> +601 4258700</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="d-flex">
+        <!-- Left -->
+        <div class="p-2">
+          <span>Conéctate con nosotros en las redes sociales:</span>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Fushion tech</a>
+      </section>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
+    ></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
